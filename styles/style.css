@@ -310,7 +310,7 @@
 
 .footer-menu-links-list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -320,7 +320,7 @@
 
 .footer-link-active {
   font-size: 18px;
-  line-height: norma;
+  line-height: normal;
   font-weight: normal;
   display: block;
   text-align: center;
@@ -328,7 +328,7 @@
 
 .footer-link {
   font-size: 18px;
-  line-height: norma;
+  line-height: normal;
   font-weight: normal;
   display: block;
   text-align: center;
