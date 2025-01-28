@@ -42,6 +42,7 @@
 
 .menu-link-active {
   text-decoration: none;
+  border-bottom: none;
 }
 
 /** Логотип сайта **/
@@ -330,6 +331,7 @@
   font-weight: normal;
   display: block;
   text-align: center;
+  text-decoration: none;
 }
 
 .footer-link {
