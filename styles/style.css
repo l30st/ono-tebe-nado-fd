@@ -1,7 +1,7 @@
-/** Header Section **/
+/** Шапка сайта **/
 
 .header {
-  padding: 92px 50px;
+  padding: 93px 50px 96px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -10,7 +10,7 @@
   line-height: normal;
 }
 
-/** Main Menu **/
+/** Главное меню **/
 
 .main-menu {
   align-self: center;
@@ -19,7 +19,7 @@
 .main-menu-links-list {
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  gap: 31px;
 }
 
 .main-menu-links-list-item {
@@ -44,14 +44,14 @@
   text-decoration: none;
 }
 
-/** Header Logo **/
+/** Логотип сайта **/
 
 .header-logo {
-  width: 148px;
+  width: 132px;
   margin: auto;
 }
 
-/** Header Contacts **/
+/** Контакты в шапке **/
 
 .contacts {
   max-width: 240px;
@@ -70,7 +70,7 @@
   white-space: nowrap;
 }
 
-/** Cover Section **/
+/** Хиро секция **/
 
 .cover {
   position: relative;
@@ -91,10 +91,12 @@
 }
 
 .cover-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   font-size: 100px;
   font-weight: bold;
   line-height: 115px;
-  letter-spacing: 30px;
   color: #fff;
   text-transform: uppercase;
   position: relative;
@@ -102,25 +104,29 @@
 }
 
 .accent-span {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
 }
 
 .accent-span-text-center {
-  text-align: center;
+  align-self: center;
 }
 
 .accent-span-text-right {
-  text-align: right;
+  align-self: end;
 }
 
+
+
 .cover-description {
-  padding-top: 120px;
+  padding-top: 106px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   position: relative;
   z-index: 2;
-  gap: 107px;
+  gap: 108px;
 }
 
 .description-text {
@@ -149,7 +155,7 @@
     color: #000;
 }
 
-/** Lots Section **/
+/** Секция Лоты **/
 
 .lots {
     padding: 180px 24px 0;
@@ -247,7 +253,7 @@
   height: 24.5px;
 }
 
-/** About Lots Section **/
+/** Секция о Лотах **/
 
 .about {
   padding: 120px 50px 180px;
@@ -296,7 +302,7 @@
   line-height: 24px;
 }
 
-/** Footer Section **/
+/** Футер сайта **/
 
 .footer {
   padding: 0 50px 82px;
