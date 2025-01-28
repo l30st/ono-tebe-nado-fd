@@ -1,7 +1,7 @@
 /** Шапка сайта **/
 
 .header {
-  padding: 93px 50px 96px;
+  padding: 92px 50px 96px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -173,13 +173,13 @@
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding: 24px 0 24px;
+  padding: 24px 0 30px;
   list-style: none;
 }
 
 .lots-card-list-item {
   width: 334px;
-  min-height: 480px;
+  min-height: 596px;
   flex-grow: 1;
 }
 
@@ -199,7 +199,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 32px;
-  padding: 40px;
+  padding: 48px 40px;
   height: 100%;
 }
 
@@ -256,10 +256,10 @@
 /** Секция о Лотах **/
 
 .about {
-  padding: 120px 50px 180px;
+  padding: 155px 25px 182px;
   display: grid;
-  grid-template-columns: 334px 1fr;
-  gap: 24px;
+  grid-template-columns: 334px 2fr;
+  gap: 25px;
 }
 
 .about-column {
@@ -287,7 +287,7 @@
   font-weight: bold;
   line-height: normal;
   text-transform: uppercase;
-  padding: 96px 0 96px;
+  padding: 96px 0 104px;
 }
 
 .about-text-block {
