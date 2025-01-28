@@ -71,7 +71,6 @@
 .contact-link {
   text-decoration: none;
   border-bottom: 1px solid #000;
-  white-space: nowrap;
 }
 
 /** Хиро секция **/
@@ -304,6 +303,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  max-width: 693px;
 }
 
 .about-text {
