@@ -58,6 +58,7 @@
   max-width: 240px;
   font-size: 18px;
   font-weight: normal;
+  font-style: normal;
   line-height: 1.3;
 }
 
@@ -79,6 +80,7 @@
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .overlay {
@@ -194,6 +196,19 @@
   opacity: 0.8;
 }
 
+.card-type-film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card-type-book {
+  background-image: url(../images/card-lot-02.jpg);
+
+}
+
+.card-type-picture {
+  background-image: url(../images/card-lot-03.jpg);
+}
+
 .card {
   position: relative;
   display: flex;
@@ -202,24 +217,9 @@
   gap: 32px;
   padding: 48px 40px;
   height: 100%;
-}
-
-.card-type-film {
-  background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.card-type-book {
-  background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-type-picture {
-  background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
 }
 
 .card-title {
@@ -346,7 +346,6 @@
   display: flex;
   justify-self: end;
   gap: 48px;
-  height: 48px;
 }
 
 .footer-social-list-item {
